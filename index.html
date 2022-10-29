@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,182 @@
     <title>Home | Garden Worker</title>
 
     <!-- bootstrap v5.2 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link href="plugins/fontawesome-free-6.2.0-web/css/all.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Garden Worker</h1>
-    <p class="text-success">#Arduino&nbsp;#MATLAB</p>
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <label class="navbar-brand text-light">Garden Worker</label>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav col-6 d-flex justify-content-end">
+                        <li class="nav-item col-2">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item col-2">
+                            <a class="nav-link text-light" href="#">About us</a>
+                        </li>
+                        <li class="nav-item col-2">
+                            <a class="nav-link text-light" href="#">Devlog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="wrapper-header">
+            <!-- blank box for page layout -->
+            <div class="top-buffer-1"></div>
+            <!-- blank box for page layout -->
+
+            <div class="container">
+                <h1 class="text-left text-light ">Welcome to Garden Worker</h1>
+                <div class="top-buffer-1"></div>
+                <p class="text-left text-light col-6 ">The project focuses on plant automation. One of the most
+                    important
+                    factor for planting is humidity. So in this project we will control the humidity of the air and soil
+                    moisture
+                </p>
+                <div class="top-buffer-1"></div>
+                <div class="row tags text-center">
+                    <label class=" text-light  col-1">#Arduino</label>
+                    <label class=" text-light  col-1">#MATLAB</label>
+                </div>
+            </div>
+
+
+
+            <!-- blank box for page layout -->
+            <div class="top-buffer-1"></div>
+            <!-- blank box for page layout -->
+        </div>
+
+        <!-- blank box for page layout -->
+        <div class="top-buffer-1"></div>
+        <!-- blank box for page layout -->
+
+        <div class="wrapper-content d-flex justify-content-center">
+            <div class="card col-11">
+                <div class="card-header">Devlog week#1 &nbsp;&nbsp; ( 16-22 Oct )</div>
+                <div class="card-body">
+                    <label>We spend time doing some research about the component that we'll use.</label>
+                    <a
+                        href="https://docs.google.com/document/d/1BV4Dnmudf09sUMc-OvnvH7sMoWsXefhxKTYgl2rL3wo/edit">HERE</a>
+                    <div class="top-buffer-1"></div>
+                    <p class="topic">TASK LIST <i class="fa-solid fa-network-wired"></i></p>
+                    <p>PHASE 1&nbsp;&nbsp;&nbsp;&nbsp;[ RESEARCH ]</p>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-3 d-flex  flex-column align-items-center">
+                            <p>About plants</p>
+                            <span class="dot"></span>
+                        </div>
+                        <div class="col-3 d-flex flex-column align-items-center">
+                            <p>About hardware for plant</p>
+                            <span class="dot "></span>
+                        </div>
+                        <div class="col-3  d-flex flex-column align-items-center">
+                            <p>About MATLAB</p>
+                            <span class="dot "></span>
+                        </div>
+                        <div class="col-3  d-flex flex-column align-items-center">
+                            <p>About GUI in MATLAB</p>
+                            <span class="dot "></span>
+                        </div>
+                        <hr class="col-11 ">
+                    </div>
+
+                    <!-- blank box for page layout -->
+                    <div class="top-buffer-2"></div>
+                    <!-- blank box for page layout -->
+
+                    <p>PHASE 2&nbsp;&nbsp;&nbsp;&nbsp;[ ARDUINO #1 ]</p>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-2 d-flex  flex-column align-items-center">
+                            <p>Arduino UNO</p>
+                            <span class="dot"></span>
+                        </div>
+                        <div class="col-3 d-flex flex-column align-items-center">
+                            <p>Capacitive soil moisture sensor v1.2</p>
+                            <span class="dot "></span>
+                        </div>
+                        <div class="col-2  d-flex flex-column align-items-center">
+                            <p>Mini water pump</p>
+                            <span class="dot "></span>
+                        </div>
+                        <div class="col-2  d-flex flex-column align-items-center">
+                            <p>DHT22</p>
+                            <span class="dot "></span>
+                        </div>
+                        <div class="col-1  d-flex flex-column align-items-center">
+                            <p>LED</p>
+                            <span class="dot "></span>
+                        </div>
+                        <hr class="col-11 ">
+                    </div>
+                    <div class="top-buffer-2"></div>
+
+                    <p>PHASE 3&nbsp;&nbsp;&nbsp;&nbsp;[ ARDUINO #2 ]</p>
+                    <div class="top-buffer-1"></div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-2 d-flex  flex-column align-items-center ">
+                            <p class="text-center"><br>Arduino UNO + DHT22</p>
+                            <span class="dot"></span>
+                        </div>
+                        <div class="col-3 d-flex flex-column align-items-center">
+                            <p class="text-center">Arduino UNO + Capacitive soil moisture sensor v1.2</p>
+                            <span class="dot "></span>
+                        </div>
+                        <div class="col-2  d-flex flex-column align-items-center">
+                            <p class="text-center">Arduino UNO + Mini water pump</p>
+                            <span class="dot "></span>
+                        </div>
+                        <div class="col-2  d-flex flex-column align-items-center">
+                            <p class="text-center">Arduino UNO + DHT22 + LED</p>
+                            <span class="dot "></span>
+                        </div>
+                        <div class="col-2  d-flex flex-column align-items-center">
+                            <p class="text-center"><br>MATLAB GUI</p>
+                            <span class="dot "></span>
+                        </div>
+                        <hr class="col-11 custom-hr">
+                    </div>
+
+                    <div class="top-buffer-1"></div>
+                    <p class="topic">SKETCH</p>
+                    <p>[circuit sketch image]</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- blank box for page layout -->
+        <div class="top-buffer-1"></div>
+        <!-- blank box for page layout -->
+    </div>
 
     <!-- bootstrap v5.2 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <!-- fontawesome -->
+    <script src="plugins/fontawesome-free-6.2.0-web/js/all.js"></script>
 </body>
+
 </html>
