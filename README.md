@@ -1,4 +1,4 @@
-# Welcome to Garden-Worker-KMUTNB.github.io
+# Welcome to Garden-Worker-KMUTNB
 
 [Go github website](https://nshpam.github.io/Garden-Worker-KMUTNB.github.io/)         
 
