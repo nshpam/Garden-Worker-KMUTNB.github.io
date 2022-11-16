@@ -5,11 +5,13 @@
 #
 My Teams
 
-SIRAPA SANGNA 64010102620218
+SIRAPA SANGNA 64010102620218   
+[![Github Badge](https://img.shields.io/badge/-nshpam-333?style=flat&logo=Github&logoColor=white)](https://github.com/nshpam)
 
-THANAT PUANGDOKMAI 6401012630060
+THANAT PUANGDOKMAI 6401012630060   
+[![Github Badge](https://img.shields.io/badge/-Atomute-333?style=flat&logo=Github&logoColor=white)](https://github.com/Atomute)
 
-ATHIBDEE RINGCHAROEN 6401012620153
-[![Facebook Badge](https://img.shields.io/badge/-Mercuone-blue?style=flat&logo=Facebook&logoColor=white&link=https://www.facebook.com/hutao.wangsheng.5/)](https://www.facebook.com/hutao.wangsheng.5)
-[![Twitter Badge](https://img.shields.io/badge/-@tsubak1Dayo-00acee?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=tsubak1Dayo)
+ATHIBDEE RINGCHAROEN 6401012620153  
 [![Github Badge](https://img.shields.io/badge/-Athibdee-333?style=flat&logo=Github&logoColor=white)](https://github.com/Athibdee)
+
+#
